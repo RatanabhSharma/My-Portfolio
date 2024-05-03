@@ -37,12 +37,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
+    
     {
       skill_name: "Type Script",
       Image: "/ts.png",
@@ -137,12 +132,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
+  
     {
       skill_name: "Type Script",
       Image: "/ts.png",
@@ -167,27 +157,17 @@ export const Skill_data = [
     {
       skill_name: "Python",
       Image: "/python.png",
-      width: 70,
-      height: 70,
+      width: 100,
+      height: 100,
     },
-    {
-      skill_name: "c",
-      Image: "/c.png",
-      width: 70,
-      height: 70,
-    },
+  
     {
       skill_name: "c++",
       Image: "/c++.png",
       width: 50,
       height: 50,
     },
-    {
-      skill_name: "Figma",
-      Image: "/figma.png",
-      width: 50,
-      height: 50,
-    },
+
     {
       skill_name: "React Native",
       Image: "/ReactNative .png",
@@ -212,13 +192,6 @@ export const Skill_data = [
       Image: "/Firebase.png",
       width: 55,
       height: 55,
-    },
-    
-    {
-      skill_name: "My SQL",
-      Image: "/mysql.png",
-      width: 70,
-      height: 70,
     },
 
   ]

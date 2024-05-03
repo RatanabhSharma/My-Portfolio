@@ -1,67 +1,42 @@
+"Use Client";
 import React from "react";
-import {
-  RxDiscordLogo,
-  RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
-  RxLinkedinLogo,
-} from "react-icons/rx";
 
-import { FaYoutube } from "react-icons/fa";
+import { FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { RxDiscordLogo, RxGithubLogo } from "react-icons/rx";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] sticky bottom-0 left-0 z-[10]">
       <div className="w-full flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold text-[16px]">Community</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <div className="font-bold text-[16px]">Contact-ME</div>
+            <a
+              href="https://www.youtube.com/@ratanabhsharmavlogs/"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <FaYoutube />
               <span className="text-[15px] ml-[6px]">Youtube</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            </a>
+            <a
+              href="https://www.github.com/ratanabhsharma/"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <RxGithubLogo />
               <span className="text-[15px] ml-[6px]">Github</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxDiscordLogo />
-              <span className="text-[15px] ml-[6px]">Discord</span>
-            </p>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ratanabh-sharma"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
+              <FaLinkedin />
+              <span className="text-[15px] ml-[6px]">LinkedIn</span>
+            </a>
           </div>
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold text-[16px]">Social Media</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <FaYoutube />
-              <span className="text-[15px] ml-[6px]">Instagram</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxGithubLogo />
-              <span className="text-[15px] ml-[6px]">Twitter</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxDiscordLogo />
-              <span className="text-[15px] ml-[6px]">Linkedin</span>
-            </p>
-          </div>
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold text-[16px]">About</div>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">Become Sponsor</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">Learning about me</span>
-            </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <span className="text-[15px] ml-[6px]">
-                u can ignore this right now
-              </span>
-            </p>
-          </div>
-        </div>
 
-        <div className="mb-[20px] text-[15px] text-center">
-          &copy; Ratanabh Sharma
+          <div className="mb-[20px] text-[15px] text-center">
+            © Ratanabh Sharma
+          </div>
         </div>
       </div>
     </div>
