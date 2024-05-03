@@ -1,5 +1,4 @@
 import React from "react";
-// import resume from "publicRatanabh Sharma.pdf";
 import { FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { RxDiscordLogo, RxGithubLogo } from "react-icons/rx";
 
@@ -24,13 +23,7 @@ const Footer = () => {
               <RxGithubLogo />
               <span className="text-[15px] ml-[6px]">Github</span>
             </a>
-            {/* <a
-              href="public\Ratanabh Sharma.pdf"
-              download={"Ratanabh Sharma.pdf"}
-              className="flex flex-row items-center my-[15px] cursor-pointer"
-            >
-              Download Resume
-            </a> */}
+
             <a
               href="https://www.linkedin.com/in/ratanabh-sharma"
               className="flex flex-row items-center my-[15px] cursor-pointer"
@@ -44,6 +37,15 @@ const Footer = () => {
             >
               <FaInstagram />
               <span className="text-[15px] ml-[6px]">Instagram</span>
+            </a>
+
+            {/* Add download button for resume PDF */}
+            <a
+              href="/Ratanabh Sharma.pdf"
+              download="Ratanabh Sharma.pdf"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
+              <span className="text-[15px] ml-[6px]">Download Resume</span>
             </a>
           </div>
 
