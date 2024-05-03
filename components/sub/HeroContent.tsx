@@ -55,7 +55,10 @@ const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
         >
-          Learn More!
+          <a href="#projects" className="cursor-pointer">
+            {" "}
+            Learn More!
+          </a>
         </motion.a>
       </div>
 

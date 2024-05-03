@@ -1,87 +1,14 @@
-// import React from "react";
-// import {
-//   RxDiscordLogo,
-//   RxGithubLogo,
-//   RxInstagramLogo,
-//   RxTwitterLogo,
-//   RxLinkedinLogo,
-// } from "react-icons/rx";
-
-// import { FaYoutube } from "react-icons/fa";
-
-// const Footer = () => {
-//   return (
-//     <div className="w-full h-full min-h-[64px] bg-transparent text-gray-200 shadow-lg p-[15px] fixed-sticky bottom-0 left-0 z-[20]">
-//       <div className="w-full flex flex-col items-center justify-center m-auto">
-//         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
-//           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-//             <div className="font-bold text-[16px]">Community</div>
-//             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-//               <FaYoutube />
-//               <span className="text-[15px] ml-[6px]">Youtube</span>
-//             </p>
-//             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-//               <RxGithubLogo />
-//               <span className="text-[15px] ml-[6px]">Github</span>
-//             </p>
-//             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-//               <RxDiscordLogo />
-//               <span className="text-[15px] ml-[6px]">Discord</span>
-//             </p>
-//           </div>
-//           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-//             <div className="font-bold text-[16px]">Social Media</div>
-//             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-//               <FaYoutube />
-//               <span className="text-[15px] ml-[6px]">Instagram</span>
-//             </p>
-//             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-//               <RxGithubLogo />
-//               <span className="text-[15px] ml-[6px]">Twitter</span>
-//             </p>
-//             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-//               <RxDiscordLogo />
-//               <span className="text-[15px] ml-[6px]">Linkedin</span>
-//             </p>
-//           </div>
-//           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-//             <div className="font-bold text-[16px]">About</div>
-//             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-//               <span className="text-[15px] ml-[6px]">Become Sponsor</span>
-//             </p>
-//             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-//               <span className="text-[15px] ml-[6px]">Learning about me</span>
-//             </p>
-//             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-//               <span className="text-[15px] ml-[6px]">
-//                 u can ignore this right now
-//               </span>
-//             </p>
-//           </div>
-//         </div>
-
-//         <div className="mb-[20px] text-[15px] text-center">
-//           &copy; Ratanabh Sharma
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Footer;
-
 import React from "react";
-
+// import resume from "publicRatanabh Sharma.pdf";
 import { FaYoutube, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { RxDiscordLogo, RxGithubLogo } from "react-icons/rx";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] absolute-sticky bottom-0 left-0 z-[10]">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] absolute-fixed bottom-0 left-0 z-[10]">
       <div className="w-full flex flex-col items-center justify-center m-auto">
-        <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <div className="font-bold text-[16px]">Contact-ME</div>
+        <div className="w-full h-full flex flex-col items-center justify-around flex-wrap">
+          <div className="w-full h-auto flex flex-row  justify-around">
             <a
               href="https://www.youtube.com/@ratanabhsharmavlogs/"
               className="flex flex-row items-center my-[15px] cursor-pointer"
@@ -89,13 +16,21 @@ const Footer = () => {
               <FaYoutube />
               <span className="text-[15px] ml-[6px]">Youtube</span>
             </a>
+
             <a
-              href="https://www.github.com/ratanabhsharma/"
+              href="https://github.com/yourusername"
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
               <RxGithubLogo />
               <span className="text-[15px] ml-[6px]">Github</span>
             </a>
+            {/* <a
+              href="public\Ratanabh Sharma.pdf"
+              download={"Ratanabh Sharma.pdf"}
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
+              Download Resume
+            </a> */}
             <a
               href="https://www.linkedin.com/in/ratanabh-sharma"
               className="flex flex-row items-center my-[15px] cursor-pointer"
@@ -103,9 +38,16 @@ const Footer = () => {
               <FaLinkedin />
               <span className="text-[15px] ml-[6px]">LinkedIn</span>
             </a>
+            <a
+              href="https://www.instagram.com/ratanabh.sharma/"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
+              <FaInstagram />
+              <span className="text-[15px] ml-[6px]">Instagram</span>
+            </a>
           </div>
 
-          <div className="mb-[20px] text-[15px] text-center">
+          <div className="mb-[20px] mt-[50px] text-[15px] text-center">
             © Ratanabh Sharma
           </div>
         </div>
