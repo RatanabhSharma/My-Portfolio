@@ -19,7 +19,7 @@ const SkillText = () => {
         <h1 className="Welcome-text text-[13px]">
           <h1 className="Welcome-text text-[13px]">
             <h1 className="Welcome-text text-[13px]">
-              'Opportunities don&apos;t happen, you create them.' &ndash; Chris
+              Opportunities don&apos;t happen, you create them.&ndash; Chris
               Grosser
             </h1>
           </h1>
