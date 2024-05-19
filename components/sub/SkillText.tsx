@@ -17,7 +17,12 @@ const SkillText = () => {
       >
         <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
         <h1 className="Welcome-text text-[13px]">
-          "Opportunities don't happen, you create them." &ndash; Chris Grosser
+          <h1 className="Welcome-text text-[13px]">
+            <h1 className="Welcome-text text-[13px]">
+              'Opportunities don&apos;t happen, you create them.' &ndash; Chris
+              Grosser
+            </h1>
+          </h1>
         </h1>
       </motion.div>
       <motion.div
