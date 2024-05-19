@@ -55,8 +55,8 @@ const EducationBackground = () => {
 
       <div className="absolute z-[20] bottom-[100px] px-[5px]">
         <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          "The only limit to our realization of tomorrow is our doubts of
-          today." – Franklin D. Roosevelt
+          "The only limit to our realization of tomorrow is our doubts of today.
+          – Franklin D. Roosevelt"
         </div>
       </div>
     </div>
