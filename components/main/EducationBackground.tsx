@@ -2,7 +2,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { slideInFromTop } from "@/utils/motion";
-import Image from "next/image";
 
 const EducationBackground = () => {
   return (
@@ -28,7 +27,7 @@ const EducationBackground = () => {
           <p className="text-sm text-white">
             Chitkara University, Graduation Date: July 2024
           </p>
-          <p className="text-sm text-white  ">CGPA: 7.14 </p>
+          <p className="text-sm text-white">CGPA: 7.14</p>
         </div>
 
         <div className="Education-box p-4 z-20 border my-5 border-purple-500 opacity-90 bg-transparent rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
