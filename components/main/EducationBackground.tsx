@@ -20,7 +20,7 @@ const EducationBackground = () => {
       <div className="flex flex-col items-center justify-center my-8 md:my-16">
         <div className="education-box p-1 md:p-5 border my-3 md:my-4 border-purple-500 opacity-90 bg-transparent rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
           <h1 className="education-text text-lg md:text-xl font-bold text-purple-600">
-            Chitkara University,Rajpura, dist&dash;Patiala(Pb)
+            Chitkara University,Rajpura, dist-Patiala(Pb)
           </h1>
           <p className="text-sm md:text-base text-white">
             B.E Electronics and Communication Engineering
