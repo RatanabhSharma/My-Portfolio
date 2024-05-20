@@ -5,57 +5,58 @@ import { slideInFromTop } from "@/utils/motion";
 
 const EducationBackground = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
-      <div className="absolute w-auto h-auto top-0 z-[5]">
-        <motion.div
-          variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
-        >
-          Education
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            {" "}
-            Background
-          </span>
-        </motion.div>
-      </div>
+    <div className="flex flex-col justify-center items-center min-h-screen">
+      <motion.div
+        variants={slideInFromTop}
+        className="text-4xl md:text-6xl font-medium text-center text-gray-200 mt-8 md:mt-16"
+      >
+        Education
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          {" "}
+          Background
+        </span>
+      </motion.div>
 
-      <div className="flex flex-col items-center justify-center translate-y-[-50px] absolute z-20 w-auto h-auto">
-        <div className="Education-box p-4 z-20 border my-5 border-purple-500 opacity-90 bg-transparent rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
-          <h1 className="Education-text text-lg font-bold text-purple-600">
+      <div className="flex flex-col items-center justify-center my-8 md:my-16">
+        <div className="education-box p-1 md:p-5 border my-3 md:my-4 border-purple-500 opacity-90 bg-transparent rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+          <h1 className="education-text text-lg md:text-xl font-bold text-purple-600">
+            Chitkara University,Rajpura, dist&dash;Patiala(Pb)
+          </h1>
+          <p className="text-sm md:text-base text-white">
             B.E Electronics and Communication Engineering
-          </h1>
-          <p className="text-sm text-white">
-            Chitkara University, Graduation Date: July 2024
+            <br />
+            Graduation Date:July 2024
           </p>
-          <p className="text-sm text-white">CGPA: 7.14</p>
+          <p className="text-sm md:text-base text-white">CGPA:7.14</p>
         </div>
 
-        <div className="Education-box p-4 z-20 border my-5 border-purple-500 opacity-90 bg-transparent rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
-          <h1 className="Education-text text-lg font-bold text-purple-600">
+        <div className="education-box p-1 md:p-5 border my-3 md:my-4 border-purple-500 opacity-90 bg-transparent rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+          <h1 className="education-text text-lg md:text-xl font-bold text-purple-600">
+            Play Ways Senior Secondary School,Patiala(Pb)
+          </h1>
+          <p className="text-sm md:text-base text-white">
             12th Standard
-          </h1>
-          <p className="text-sm text-white">
-            Play Ways Senior Secondary School, Passing Year: March 2020
+            <br /> Passing Year: March 2020
           </p>
-          <p className="text-sm text-white">Percentage: 60.6%</p>
+          <p className="text-sm md:text-base text-white">Percentage:60.6%</p>
         </div>
 
-        <div className="Education-box p-4 z-20 border my-5 border-purple-500 opacity-90 bg-transparent rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
-          <h1 className="Education-text text-lg font-bold text-purple-600">
-            10th Standard
+        <div className="education-box p-1 md:p-5 border my-3 md:my-4 border-purple-500 opacity-90 bg-transparent rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
+          <h1 className="education-text text-lg md:text-xl font-bold text-purple-600">
+            Shri Aurobindo International School,Patiala(Pb)
           </h1>
-          <p className="text-sm text-white">
-            Shri Aurobindo International School, Passing Year: March 2017
+          <p className="text-sm md:text-base text-white">
+            10th Standard
+            <br />
+            Passing Year: March 2017
           </p>
-          <p className="text-sm text-white">CGPA: 5.8</p>
+          <p className="text-sm md:text-base text-white">CGPA:5.8</p>
         </div>
       </div>
 
-      <div className="absolute z-[20] bottom-[100px] px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
-          &quot;The only limit to our realization of tomorrow is our doubts of
-          today. &ndash; Franklin D. Roosevelt&quot;
-        </div>
+      <div className="cursive text-sm md:text-lg font-medium text-center text-gray-300 mb-8 md:mb-16">
+        &quot;The only limit to our realization of tomorrow is our doubts of
+        today. &ndash; Franklin D. Roosevelt&quot;
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+"use client";
 import { Frontend_skill, Other_skill, Skill_data } from "@/constants";
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";

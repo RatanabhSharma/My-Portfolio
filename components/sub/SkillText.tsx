@@ -16,14 +16,9 @@ const SkillText = () => {
         className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
       >
         <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-        <h1 className="Welcome-text text-[13px]">
-          <h1 className="Welcome-text text-[13px]">
-            <h1 className="Welcome-text text-[13px]">
-              Opportunities don&apos;t happen, you create them.&ndash; Chris
-              Grosser
-            </h1>
-          </h1>
-        </h1>
+        <p className="Welcome-text text-[13px]">
+          Opportunities don&apos;t happen, you create them.&ndash; Chris Grosser
+        </p>
       </motion.div>
       <motion.div
         variants={slideInFromLeft(0.5)}

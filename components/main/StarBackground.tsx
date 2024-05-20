@@ -9,10 +9,11 @@ import * as random from "maath/random/dist/maath-random.esm";
 const StarBackground = (props: any) => {
   const ref: any = useRef();
   const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5000), { radius: 1.2 })
+    random.inSphere(new Float32Array(2000), { radius: 1.2 })
   );
 
   useFrame((state, delta) => {
+    if (document.hidden) return; // Pause animation when the tab is not visible
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15;
   });
@@ -22,10 +23,10 @@ const StarBackground = (props: any) => {
       <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
-          color="$fff"
+          color="#fff"
           size={0.002}
           sizeAttenuation={true}
-          dethWrite={false}
+          depthWrite={false}
         />
       </Points>
     </group>
@@ -34,10 +35,11 @@ const StarBackground = (props: any) => {
 
 const StarsCanvas = () => (
   <div className="w-full h-screen fixed inset-0 z-[-1] pointer-events-none">
-    <Canvas camera={{ position: [0, 0, 1] }}>
+    <Canvas camera={{ position: [0, 0, 1] }} dpr={[1, 2]}>
       <Suspense fallback={null}>
         <StarBackground />
       </Suspense>
+      <Preload all />
     </Canvas>
   </div>
 );
