@@ -1,5 +1,5 @@
 import EducationBackground from "@/components/main/EducationBackground";
-import Encryption from "@/components/main/Encryption";
+// import Encryption from "@/components/main/Encryption";
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
@@ -11,7 +11,7 @@ export default function Home() {
         <Hero />
         <EducationBackground />
         <Skills />
-        <Encryption />
+        {/* <Encryption /> */}
         <Projects />
       </div>
     </main>
