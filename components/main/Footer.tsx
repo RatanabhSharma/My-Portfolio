@@ -23,7 +23,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-center my-2 mx-2">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/RatanabhSharma"
               className="flex items-center cursor-pointer"
             >
               <RxGithubLogo />
