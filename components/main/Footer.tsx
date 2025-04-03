@@ -58,7 +58,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="mt-4 text-sm text-center">RatanabhSharma(Software)</div>
+        <div className="mt-4 text-sm text-center">0 RatanabhSharma(Software)</div>
       </div>
     </div>
   );
