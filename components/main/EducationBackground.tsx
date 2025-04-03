@@ -25,14 +25,14 @@ const EducationBackground = () => {
           <p className="text-sm md:text-base text-white">
             B.E Electronics and Communication Engineering
             <br />
-            Graduation Date:July 2024
+            Graduation Date:Augest 2024
           </p>
-          <p className="text-sm md:text-base text-white">CGPA:7.14</p>
+          <p className="text-sm md:text-base text-white">CGPA:7.13</p>
         </div>
 
         <div className="education-box p-1 md:p-5 border my-3 md:my-4 border-purple-500 opacity-90 bg-transparent rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
           <h1 className="education-text text-lg md:text-xl font-bold text-purple-600">
-            Play Ways Senior Secondary School,Patiala(Pb)
+            Play Ways Senior Secondary School, Patiala(Pb)
           </h1>
           <p className="text-sm md:text-base text-white">
             12th Standard
@@ -43,7 +43,7 @@ const EducationBackground = () => {
 
         <div className="education-box p-1 md:p-5 border my-3 md:my-4 border-purple-500 opacity-90 bg-transparent rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out">
           <h1 className="education-text text-lg md:text-xl font-bold text-purple-600">
-            Shri Aurobindo International School,Patiala(Pb)
+            Shri Aurobindo International School, Patiala(Pb)
           </h1>
           <p className="text-sm md:text-base text-white">
             10th Standard
@@ -55,7 +55,7 @@ const EducationBackground = () => {
       </div>
 
       <div className="cursive text-sm md:text-lg font-medium text-center text-gray-300 mb-8 md:mb-16">
-        &quot;The only limit to our realization of tomorrow is our doubts of
+        &quot; The only limit to our realization of tomorrow is our doubts of
         today. &ndash; Franklin D. Roosevelt&quot;
       </div>
     </div>
