@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center">
           <div className="flex flex-col items-center my-2 mx-2">
             <a
-              href="https://www.youtube.com/@ratanabhsharmavlogs/"
+              href="https://www.youtube.com/@mgeagle_yt/"
               className="flex items-center cursor-pointer"
             >
               <FaYoutube />
@@ -58,7 +58,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="mt-4 text-sm text-center">0 Ratanabh Sharma</div>
+        <div className="mt-4 text-sm text-center">Ratanabh Sharma</div>
       </div>
     </div>
   );
